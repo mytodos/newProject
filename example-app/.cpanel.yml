@@ -1,0 +1,5 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/harmannp/harman.harmannpharma.com/
+    - /bin/cp * $DEPLOYPATH
